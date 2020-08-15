@@ -17,7 +17,6 @@
 #include <cfloat>
 #include <cmath>
 
-#define SEETA_MODEL_ENCRYPT
 #ifdef SEETA_MODEL_ENCRYPT
 #include "SeetaLANLock.h"
 #include "hidden/SeetaLockFunction.h"
