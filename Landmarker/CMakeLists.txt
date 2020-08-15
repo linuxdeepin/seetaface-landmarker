@@ -44,15 +44,6 @@ list(APPEND SRC_FILES ${ROOT_SEETA_FILES})
 # add library
 add_library(${PROJECT_NAME} ${TARGET} ${SRC_FILES})
 
-if (NEED_CHECK)
-    file(GLOB_RECURSE ENCRYPTION_SRC_FILES
-        ${CMAKE_CURRENT_SOURCE_DIR}/encryption/*.c
-        ${CMAKE_CURRENT_SOURCE_DIR}/encryption/*.cc
-        ${CMAKE_CURRENT_SOURCE_DIR}/encryption/*.cpp
-        )
-    list(APPEND SRC_FILES ${ENCRYPTION_SRC_FILES})
-endif ()
-
 # link SeetaAuthorize
 if(SEETA_AUTHORIZE)
 	find_package(SeetaAuthorize REQUIRED)
@@ -83,7 +74,7 @@ else()
 endif()
 
 # build dir
-set(OUT_DIR ${SOLUTION_DIR}/build)
+set(OUT_DIR ${SOLUTION_DIR}/../build)
 
 #create install dir
 file(MAKE_DIRECTORY ${OUT_DIR})
