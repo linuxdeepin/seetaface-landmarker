@@ -1,3 +1,9 @@
+seetaface-landmarker (1.0.0.1-1+dde) unstable; urgency=medium
+
+  * Fix build issue
+
+ -- chenlinxuan <chenlinxuan@uniontech.com>  Thu, 09 Dec 2021 21:19:09 +0800
+
 seetaface-landmarker (1.0.0-1) unstable; urgency=medium
 
   * Initial release 
