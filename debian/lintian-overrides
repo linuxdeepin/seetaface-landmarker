@@ -1,0 +1,2 @@
+seetaface-landmarker: package-must-activate-ldconfig-trigger usr/lib/libSeetaFaceLandmarker600.so
+seetaface-landmarker: shlib-without-PT_GNU_STACK-section usr/lib/libSeetaFaceLandmarker600.so
