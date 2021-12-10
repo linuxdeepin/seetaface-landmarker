@@ -1,5 +1,11 @@
 seetaface-landmarker (1.0.0.1-1+dde) unstable; urgency=medium
 
+  * Fix conflict files with seetaface-boxes
+
+ -- chenlinxuan <chenlinxuan@uniontech.com>  Fri, 10 Dec 2021 13:33:10 +0800
+
+seetaface-landmarker (1.0.0.1-1+dde) unstable; urgency=medium
+
   * Fix build issue
 
  -- chenlinxuan <chenlinxuan@uniontech.com>  Thu, 09 Dec 2021 21:19:09 +0800
